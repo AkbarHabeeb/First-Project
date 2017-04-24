@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Registration Form</title>
+</head>
+
+<body>
+<b>	<h3 align="center" style="color: #3333ff">Registration Form</h3>	</b>
+<style type="text/css">
+	*
+	{
+		background-color: #fffff5;
+	}
+	label
+	{
+		display: inline-block;
+		width: 125px;
+		text-align: left;
+	}
+	select
+	{
+		width: 179px;
+		text-align-last: center;
+	}
+	textarea
+	{
+		border-width: 1px;
+
+	}
+</style>
+<br>
+<form align="center">
+	<p> 
+		<label>First Name 		</label>
+		<input type="text" name="fname" maxlength="15" required >
+	</p> 
+	<p>
+		<label>Last Name 		</label>
+		<input type="text" name="lname" maxlength="8" required >
+	</p>
+	<p>
+		<label>		</label>	
+		<input type="radio" name="Gender" value="Male">	
+		<label>Male</label> 
+	</p>
+	<p>
+		<label>		</label>
+		<input type="radio" name="Gender" value="Female">
+		<label>Female</label>
+	</p> 
+	<p>
+		<label>Reg.no   		</label>
+		<input type="number" name="regno" maxlength="11" required >
+	</p> 
+	<p>
+		<label>Year in CEG	</label>
+		<input type="number" name="Year" maxlength="3" required >
+	</p>
+	<p>
+		<label>Gmail	</label>
+		<input type="Gmail" name="Gmail" maxlength="66" required>
+	</p>
+	<p>
+		<label>FB Profile</label>
+		<input type="text" name="fblink" maxlength="99" required >
+	</p>
+	<p>
+		<label>		</label>	
+		<input type="radio" name="Status" value="Hosteller" checked >	
+		<label>Hosteller</label> 
+	</p>
+	<p>
+		<label>		</label>
+		<input type="radio" name="Status" value="Day Scholar">
+		<label>Day Scholar</label>
+	</p>
+	<p>
+		<label>Department	</label>
+		<select name="Dropdownlistbox">
+			<option>Agriculture</option>
+			<option>CS</option>
+			<option>IT</option>
+			<option>EEE</option>
+			<option>ECE</option>
+			<option selected>Maths</option>
+			<option>Geo Informatics</option>
+			<option>Mech</option>
+			<option>Civil</option>
+		</select>
+	</p>
+	<p>
+		<label>Intrested Area </label>
+		<textarea rows="2" cols="22"></textarea>
+	</p>
+	<br>
+	<input type="Reset" name="Reset" value="Reset" style="background-color: #ffff99">
+	<br><br>
+	<input type="SUBMIT" name="submit" value="SUBMIT" style="background-color: #ffff99">
+	</form>
+</body>
+</html>
